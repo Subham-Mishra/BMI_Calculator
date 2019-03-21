@@ -1,0 +1,15 @@
+<h1>BMI calculator</h1> 
+<form action="/" method="POST">
+    <div>Please Enter Your Height in cms : <input type="number" name="Height" placeholder="185 cms"></div>
+    <br>
+    <div>Please Enter Your Weight in kgs : <input type="number" name="Weight" placeholder="72 kgs"></div>
+    <hr>
+    <button type="submit">Check your Health</button>
+    <br>
+</form>
+
+
+<div>{{printf "Your Height is %f" .Height }}</div>
+
+<div>{{printf "Your Weight is %f" .Weight }}</div>
+
